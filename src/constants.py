@@ -1,0 +1,28 @@
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+GAME_TITLE = "Tetris"
+
+COLOR_BORDER_RECT = "black"
+COLOR_BLOCK_RECT = "blue"
+COLOR_BLOCK_BORDER_RECT = "black"
+COLOR_BACKGROUND = "black"
+
+RECT_SIZE = 2  # size in % to width
+
+FALL_SPEED = 5
+FAST_FALL_SPEED = 10
+
+TETRIS_I_BLOCK = 0
+TETRIS_J_BLOCK = 1
+TETRIS_L_BLOCK = 2
+TETRIS_O_BLOCK = 3
+TETRIS_S_BLOCK = 4
+TETRIS_T_BLOCK = 5
+TETRIS_Z_BLOCK = 6
+TETRIS_BLOCKS = [TETRIS_I_BLOCK,
+                 TETRIS_J_BLOCK,
+                 TETRIS_L_BLOCK,
+                 TETRIS_O_BLOCK,
+                 TETRIS_S_BLOCK,
+                 TETRIS_T_BLOCK,
+                 TETRIS_Z_BLOCK]
